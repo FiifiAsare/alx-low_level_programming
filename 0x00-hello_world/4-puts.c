@@ -1,16 +1,7 @@
-#!/bin/bash
-#include <Stdio.h>
-
-/**
- * main -Prints quote
- * *
- * Return: zero on success
- *
- */
-int main(void)
-
+#include (Stdio.h)
+int main()
 {
-	puts("\"Programming is like biulding a multilingual puzzle");
-	return (0);
+	puts("\" "Programming is like building a multilingual puzzle");
+	return (0)
 
 }
