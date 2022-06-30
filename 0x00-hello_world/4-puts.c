@@ -1,5 +1,5 @@
-#!/bin/bash
-#include (Stdio.h)
+#include <Stdio.h>
+
 int main(void)
 { 
  puts("\"Programming is like building a multilingual puzzle");
