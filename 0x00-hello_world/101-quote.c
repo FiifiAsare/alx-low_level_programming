@@ -1,14 +1,11 @@
-#include <unistd.h>
-
-/**
- * main - Prints quote to the standard error
- *
- * Return: zero on success
- *
- */
-int main(void)
-{
-write(2,
-	"and that piece of art is useful - Dora Korpar, 2015-10-19\n", 58);
-return (1);
+[In reply to Saudat]
+/**                                                                                                                                     
+ * * main - prints exactly and that piece of art is useful"                                                                                
+ * * - Dora Korpar, 2015-10-19 .                                                                                                           
+ * * followed by a new line, to the standard error.                                                                                        
+ * * Return: Always 0 (success)                                                                                                            
+ * */                                                                                                                                      
+int main(void)                                                                                                                          
+{                                                                                                                            
+	write(2, "and that piece of art is usefull\" -Dora Korpar, 2015-10-19\n", 59);                                  return (1);                                                                                                                             
 }
