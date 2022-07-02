@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 /**
  * main - entry point
  *
@@ -7,9 +9,12 @@
  */
 {
 int main(void)
-char a;
-for (a = 'z'; a >= 'a' a--)
-putchar(a);
+char letter = 'z';
+while (letter >= 'a')
+{
+putchar(letter);
+letter--;
+}
 putchar('\n');
 return (0);
 }
