@@ -1,14 +1,18 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <time.h>
+
 /**
- * main - entry point
+ * main - Prints alphabet
+ * @void: Empty parameter list for main.
  *
- * Return: Always return 0
+ * Description: Prints the alphabet in reverse order
+ * Can only use putchar
  *
+ * Return: 0 for success
  */
-{
 int main(void)
+{
 char letter = 'z';
 while (letter >= 'a')
 {
