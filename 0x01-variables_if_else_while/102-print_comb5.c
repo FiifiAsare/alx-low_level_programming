@@ -27,7 +27,8 @@ putchar((j % 10) + '0');
 {
 putchar(',');
 putchar(' ');
-}															}
+}
+}
 }
 }
 putchar('\n');
