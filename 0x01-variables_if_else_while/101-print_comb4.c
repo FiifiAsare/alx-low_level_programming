@@ -1,37 +1,36 @@
 #include <stdio.h>
-
 /**
- * main - Writes 001 - 999
- *
- * @void: Empty parameter list for main.
- *
- * Description: Writes all unique combinations
- *
- * of 3 numbers
- *
- * Return: 0 for success
- */
+ *  * main - entry point
+ *   *
+ *    * Return: alway returns 0
+ *     *
+ *      */
 int main(void)
 {
-int i, j, k;
-for (i = '0'; i <= '9'; i++)
+		int i;
+			int j;
+				int k;
 
-{
-for (j = '0'; j <= '9'; j++)
-for (k = '0'; k <= '9'; k++)
-
-{
-if ((i < j) & (j < k) & (k <= '9'))
-
-{
-putchar(i);
-putchar(j);
-putchar(k);
-if ((i + j + k) < 168)
-
-{															putchar(',');														putchar(' ');														}
-}															}	
-}
-putchar('\n');
-return (0);
+					for (i = 0; i <= 9; i++)
+							{
+										for (j = 0; j <= 9; j++)
+													{
+																	for (k = 0; k <= 9; k++)
+																					{
+																										if (k > j && j > i)
+																															{
+																																					putchar(i + '0');
+																																										putchar(j + '0');
+																																															putchar(k + '0');
+																																																				if (i != 7 || j != 8 || k != 9)
+																																																										{
+																																																																	putchar(',');
+																																																																							putchar(' ');
+																																																																												}
+																																																								}
+																													}
+																			}
+											}
+						putchar('\n');
+							return (0);
 }
