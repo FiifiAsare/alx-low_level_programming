@@ -16,7 +16,8 @@ if (j != 20365011074)
 {
 printf("%ld, ", j);
 }
-else															{
+else
+{
 printf("%ld\n", j);
 }
 next = j + k;
