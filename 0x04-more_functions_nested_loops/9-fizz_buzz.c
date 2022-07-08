@@ -16,16 +16,16 @@ int i;
 for (i = 1; i <= 100; i++)
 {
 if (i % 15 == 0)
-putchar("FizzBuzz");
+_putchar("FizzBuzz");
 else if (i % 3 == 0)
-putchar("Fizz");
+_putchar("Fizz");
 else if (i % 5 == 0)
-putchar("Buzz");
+_putchar("Buzz");
 else
-putchar"%i", i);
+_putchar"%i", i);
 if (i < 100)
-putchar" ");
+_putchar" ");
 }
-putchar("\n");
+_putchar("\n");
 return (0);
 }
