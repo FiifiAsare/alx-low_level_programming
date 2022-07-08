@@ -3,10 +3,10 @@
 /**
  * print_numbersr - print numbers 0-9 
  * main- check the code
- * return void
+ * return: void
  * */
 
- void print_numbers()void 
+void print_numbers()void 
 
 {
 int c;
