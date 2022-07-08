@@ -1,10 +1,9 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * main - FizzBuzz
  *
- * Description: prints the numbers 1 - 100 w/
+ * Description: _putchar the numbers 1 - 100 w/
  * Fizz for multiples of 3, Buzz for multiples of 5,
  * and FizzBuzz for multiples of both
  *
