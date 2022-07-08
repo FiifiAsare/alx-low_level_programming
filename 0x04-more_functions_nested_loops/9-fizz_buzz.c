@@ -1,23 +1,31 @@
-#include "main.h"
-#include <stdio.h>
+#include <main.h>
+#include "stdio.h"
 
 /**
- * main - Entry piont
- * Return: Always 0
+ * main - FizzBuzz
+ *
+ * Description: prints the numbers 1 - 100 w/
+ * Fizz for multiples of 3, Buzz for multiples of 5,
+ * and FizzBuzz for multiples of both
+ *
+ * Return: always 0
  */
 int main(void)
 {
-int i = 1;
-for (; i < 100 ; i++)
+int i;
+for (i = 1; i <= 100; i++)
 {
-if (i % 3 == 0 && i % 5 == 0)
-printf("FizzBuzz ");
+if (i % 15 == 0)
+printf("FizzBuzz");
 else if (i % 3 == 0)
-printf("Fizz ");
+printf("Fizz");
 else if (i % 5 == 0)
-printf("Buzz ");
+printf("Buzz");
 else
-printf("%d ", i);
+printf("%i", i);
+if (i < 100)
+printf(" ");
 }
-printf("Buzz\n");
+printf("\n");
 return (0);
+}
