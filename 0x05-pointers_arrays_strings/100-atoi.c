@@ -19,8 +19,7 @@ if (*temp == '-')
 	sign *= -1;
 temp++;
 }
-if (*temp != '\0')
-{
+if (*temp != '\0'){
 do 
 {
 num = num * 10 + (*temp - '0');
