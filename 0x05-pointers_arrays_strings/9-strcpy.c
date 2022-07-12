@@ -2,16 +2,19 @@
 
 /**
  * char *_strcpy - a function that copies the string pointed to by src
- * @dest: copy to
- * @src: copy from
- * Return: string
+ * @dest: this is the destination
+ * @src: this is the copia
+ * Return: copy
  */
 char *_strcpy(char *dest, char *src)
 {
-int i = 0;
-for (; src[i] != '\0'; i++)
+char *start = dest;
+while (*src != '\0')
 {
-dest[i] = src[i];
+*dest = *src;
+dest++;
+src++;
 }
-return (dest);
+*dest = '\0';
+return (start);
 }
