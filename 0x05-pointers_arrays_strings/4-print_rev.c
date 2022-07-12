@@ -19,4 +19,3 @@ _putchar(s[n]);
 }
 _putchar('\n');
 }
-
