@@ -15,6 +15,6 @@ for (i = 0; i < fcounter; i++)
 fcounter--;
 rev = s[i];
 s[i] = s[fcounter];
-s[fcounter] = rev
+s[fcounter] = rev;
 }
 }
