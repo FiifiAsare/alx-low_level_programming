@@ -11,10 +11,10 @@ return (_sqrt(n, 1));
 }
 
 /**
- * _sqrt - _sqrt_recursion
+ *_strstr - _sqrt_recursion
  * @n: integer paramtr
  * @i: integer parameter
- * Return: sqrt
+ * Return: _strstr
  */
 int _sqrt(int n, int i)
 {
