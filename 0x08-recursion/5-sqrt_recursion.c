@@ -9,7 +9,7 @@ int _sqrt (int n, int i);
  *
  * Return: the natural square root
  */
-int _sqrt_recursion(int n)
+int _sqrt_recursion (int n)
 {
 return (_sqrt(n, 1));
 }
@@ -21,7 +21,7 @@ return (_sqrt(n, 1));
  *
  * Return: the natural square root
  */
-int _sqrt(int n, int i)
+int _sqrt (int n, int i)
 {
 int sqrt = i * i;
 if (sqrt > n)
