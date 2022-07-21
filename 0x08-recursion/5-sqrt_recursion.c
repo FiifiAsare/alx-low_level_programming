@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 
 /**
  * _sqrt_recursion - main function
@@ -14,7 +14,7 @@ return (_sqrt(n, 1));
  * _sqrt - _sqrt_recursion
  * @n: integer parameter
  * @i: integer parameter
- * Reurn: sqrt
+ * Return: sqrt
  */
 int _sqrt(int n, int i)
 {
