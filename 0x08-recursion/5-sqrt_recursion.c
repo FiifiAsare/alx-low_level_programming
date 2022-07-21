@@ -21,12 +21,12 @@ return (_sqrt(n, 1));
  *
  * Return: the natural square root
  */
-int _sqrt(int n, int i)
+int _sqrt (int n, int i)
 {
 int sqrt = i * i;
 if (sqrt > n)
 return (-1);
-if(sqrt == n)
+if (sqrt == n)
 return (i);
 return (_sqrt(n, i + 1));
 }
