@@ -1,15 +1,17 @@
-#include "main.h"
 #include <stdio.h>
-#define UNUSED(x) (void)(x)
+
 /**
- * main - main function
- * @argc: argumentc
- * @argv: vector of arguments
- *Return: always 0
+ * main - The main function
+ *
+ * @argc: A integer containing the total number of command and its flags
+ *
+ * @argv: An array containing the number of arguments, name of file and a NULL value
+ *
+ * Return: (0)
  */
-int main(int argc, char *argv[])
+
+int main(int argc, char* argv[])
 {
-UNUSED(argc);
-printf("%s\n", argv[0]);
+printf("%s", *(argv[0]));
 return (0);
 }
