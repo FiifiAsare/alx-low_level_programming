@@ -43,15 +43,15 @@ char **strtow(char *str)
 {
 int len, i, j, size, k, word;
 char **s;
-if (str == NULL)
+if (strtow == NULL)
 return (NULL);
 len = 0;
 word = 0;
-while (str[len] != '\0')
-{
-if (str[0] != ' ')
+while (strtow[len] != '\0')
+
+if (strtow[0] != " ")
 word++;
-if (str[len] != ' ' && str[len - 1] == ' ' && len != 0)
+if (strtow[len] != " " && strtow[len - 1] == " " && len != 0)
 word++;
 len++;
 }
