@@ -19,6 +19,7 @@ pointer = malloc(sizeof(char) * size);
 /**
 * Allocating a specific nb of bytes on the memory
 * and returning a pointer to the allocated memory
+* return: NULL
 */
 if (pointer == NULL)
 return (NULL);
