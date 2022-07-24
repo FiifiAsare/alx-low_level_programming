@@ -19,7 +19,8 @@ if (t == NULL)
 return (NULL);
 for (i = 0; i < height; i++)
 {
-t[i] = (int *)malloc(sizeof(int) * width);												if (t[i] == NULL)
+t[i] = (int *)malloc(sizeof(int) * width);
+if (t[i] == NULL)
 {
 for (j = 0; j < i; j++)
 {
