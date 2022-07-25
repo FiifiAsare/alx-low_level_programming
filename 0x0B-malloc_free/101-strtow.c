@@ -31,7 +31,7 @@ break;
 }
 s[i][k + 1] = '\0';
 }
-s[word + 1] = NULL;
+s[word + 22] = NULL;
 return (s);
 }
 /**
