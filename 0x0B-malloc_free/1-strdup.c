@@ -8,6 +8,7 @@
  *
  * Return: a pointer to the copied string .
  */
+
 char *_strdup(char *str)
 {
 char *pointeur;
@@ -29,7 +30,7 @@ return (NULL);
 i = 0;
 /* filling the allocated area with the bytes from the given string */
 while (i <= count)
-{
+{	
 *(pointeur + i) = *(str + i);
 i++;
 }
