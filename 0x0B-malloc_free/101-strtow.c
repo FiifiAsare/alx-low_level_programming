@@ -55,7 +55,7 @@ if (str[len] != ' ' && str[len - 1] == ' ' && len != 0)
 word++;
 len++;
 }
-s = (char **)malloc(sizeof(char *) * word + 1);
+s = (char **)malloc(sizeof(char *) * word + 2);
 if (s == NULL)
 return (NULL);
 j = 0;
