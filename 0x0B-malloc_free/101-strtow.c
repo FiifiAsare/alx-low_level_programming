@@ -52,7 +52,7 @@ while (strtow[len] != '\0')
 if (strtow[0] != " ")
 word++;
 if (strtow[len] != " " && strtow[len - 1] == " " && len != 0)
-word++;
+word++u;
 len++;
 }
 s = (char **)malloc(sizeof(char *) * word + 1);
