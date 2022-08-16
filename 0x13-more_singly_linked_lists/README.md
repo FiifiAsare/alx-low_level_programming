@@ -1,1 +1,1 @@
-0x13-C-More Single link list
+0x13-C-More Singly linked lists
