@@ -132,8 +132,10 @@ break;
 case ELFOSABI_HPUX:
 printf("UNIX - HP-UX\n");
 break;
-case ELFOSABI_NETBSD;													printf("UNIX - NetBSD\n");
-break;															case ELFOSABI_LINUX:
+case ELFOSABI_NETBSD;
+printf("UNIX - NetBSD\n");
+break;							
+case ELFOSABI_LINUX:
 printf("UNIX - Linux\n");
 break;
 case ELFOSABI_SOLARIS:
